@@ -8,23 +8,23 @@ Currently, UAVOrthoMosaic has been primarily compiled and tested under Linux
 
 -- Web Resource --
 
-Homepage: http://geos.whu.edu.cn:8080/UAVOrthoMosaic/ 
+Homepage: http://geos.whu.edu.cn:8080/UAVOrthoMosaic/ <br/>
 Github: https://github.com/whuxcz/UAVOrthoMosaic
 
 -- Requirement --
 
-Note that the process of point cloud and dense point cloud generation is based on open source software Bundler and CMVS/PMVS, so you have to have them installed on your machine! 
--SIFT: http://www.cs.ubc.ca/~lowe/keypoints/ 
--Bundler: http://phototour.cs.washington.edu/bundler/ 
--CMVS/PMVS2: http://www.di.ens.fr/cmvs/ 
+Note that the process of point cloud and dense point cloud generation is based on open source software Bundler and CMVS/PMVS, so you have to have them installed on your machine! <br/>
+-SIFT: http://www.cs.ubc.ca/~lowe/keypoints/ <br/>
+-Bundler: http://phototour.cs.washington.edu/bundler/ <br/>
+-CMVS/PMVS2: http://www.di.ens.fr/cmvs/ <br/>
 -ImageMagick http://www.imagemagick.org/script/index.php
 
 -- INSTALL --
 
-UAVOrthoMosaic relies on several libraries and to compile the software you have to install them before compiling the software. The required libraries are: 
--Eigen http://eigen.tuxfamily.org/index.php?title=Main_Page 
--Flann http://www.cs.ubc.ca/research/flann/ 
--Boost http://www.boost.org/ 
+UAVOrthoMosaic relies on several libraries and to compile the software you have to install them before compiling the software. The required libraries are: <br/>
+-Eigen http://eigen.tuxfamily.org/index.php?title=Main_Page <br/>
+-Flann http://www.cs.ubc.ca/research/flann/ <br/>
+-Boost http://www.boost.org/ <br/>
 -gzip http://www.gzip.org/ 
 
 After install those libraries, modify the Makefile to link those libraries. Then cd UAVOrthoMosaic make After that, you can run the launch.sh to run the UAVOrthoMosaic!
