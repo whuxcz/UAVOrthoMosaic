@@ -25,7 +25,10 @@ UAVOrthoMosaic relies on several libraries and to compile the software you have 
 -Eigen http://eigen.tuxfamily.org/index.php?title=Main_Page <br/>
 -Flann http://www.cs.ubc.ca/research/flann/ <br/>
 -Boost http://www.boost.org/ <br/>
--gzip http://www.gzip.org/ 
+-gzip http://www.gzip.org/ <br/>
+-libjpeg http://libjpeg.sourceforge.net/ <br/>
+-libtiff http://www.libtiff.org/ <br/>
+-libgeotiff http://trac.osgeo.org/geotiff/
 
 After install those libraries, modify the Makefile to link those libraries. Then cd UAVOrthoMosaic make After that, you can run the launch.sh to run the UAVOrthoMosaic!
 
